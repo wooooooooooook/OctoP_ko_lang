@@ -21,7 +21,7 @@ msgstr ""
 "Project-Id-Version: OctoPrint\n"
 "Report-Msgid-Bugs-To: i18n@octoprint.org\n"
 "POT-Creation-Date: 2018-12-03 11:55+0100\n"
-"PO-Revision-Date: 2018-12-21 12:18+0000\n"
+"PO-Revision-Date: 2018-12-21 13:25+0000\n"
 "Last-Translator: wooooooooooook <nubiz@naver.com>\n"
 "Language-Team: Korean (http://www.transifex.com/octoprint/octoprint/language/ko/)\n"
 "MIME-Version: 1.0\n"
@@ -325,7 +325,7 @@ msgstr "이 플러그인을 사용하지 않으면 더 이상 OctoPrint 설정 �
 #: src/octoprint/plugins/backup/static/js/backup.js:88
 #, python-format
 msgid "You are about to delete backup file \"%(name)s\"."
-msgstr "사용자가 백업 파일 \"%(name)s\"을 삭제했습니다."
+msgstr "백업 파일 \"%(name)s\"을 삭제하려고 하고있습니다."
 
 #: src/octoprint/plugins/backup/static/js/backup.js:104
 #, python-format
@@ -350,7 +350,7 @@ msgstr "마지막으로 복원하는 동안 알 수없는 플러그인 레코드
 #: src/octoprint/plugins/backup/static/js/backup.js:155
 #, python-format
 msgid "You are about to delete %(count)d backups."
-msgstr "당신은 백업 %(count)d을 삭제했습니다."
+msgstr "백업 %(count)d을 삭제하려고 하고있습니다."
 
 #: src/octoprint/plugins/backup/static/js/backup.js:175
 msgid "Backup created successfully"
@@ -376,7 +376,7 @@ msgstr "백업에서 복원합니다."
 msgid ""
 "Restore failed! Check the above output and octoprint.log for reasons as to "
 "why."
-msgstr "복원실패! octoprint.log를 확인하여 실패한 원인을 확인합니다."
+msgstr "복원실패! 위에 표시된 출력과 octoprint.log를 통해 원인을 확인해보세요."
 
 #: src/octoprint/plugins/backup/static/js/backup.js:198
 msgid "Restore successful! The server will now be restarted!"
@@ -399,7 +399,7 @@ msgstr "호환되지 않는 옥토프린트 버전이거나, 인식되지 않는
 msgid ""
 "There are %(count)d plugins you'll need to install manually since they "
 "aren't registered on the repository:"
-msgstr "저장소에 등록되지 않은 플러그인 %(count)d은 수동으로 설치할 필요가 있습니다."
+msgstr "%(count)d개의 플러그인은 저장소에 등록되지 않았기 때문에 수동으로 설치해야합니다."
 
 #: src/octoprint/plugins/backup/static/js/backup.js:243
 msgid "Deleting backups"
@@ -1008,7 +1008,7 @@ msgstr "plugin_cura_engine.log에 CuraEngine의 로그 저장"
 
 #: src/octoprint/plugins/cura/templates/snippets/settings/cura/enginePath.jinja2:2
 msgid "Path to CuraEngine"
-msgstr "큐라엔진 위치"
+msgstr "큐라엔진 경로"
 
 #: src/octoprint/plugins/cura/templates/snippets/settings/cura/enginePath.jinja2:6
 #: src/octoprint/templates/dialogs/settings/folders.jinja2:9
@@ -1701,7 +1701,7 @@ msgid ""
 "This does not look like a valid plugin archive. Valid plugin archives should"
 " be either zip files or tarballs and have the extension \".zip\", "
 "\".tar.gz\", \".tgz\" or \".tar\""
-msgstr "올바른 플러그인 파일로 보이지 않습니다. 올바른 파일은 zip 파일 또는 타르볼이고 확장자는 \".zip\", \".tar.gz\", \".tgz\" 또는 \".tar\" 이어야 합니다."
+msgstr "올바른 플러그인 아카이브가 아닌 것 같습니다. 올바른 플러그인 아카이브는 zip 파일 또는 \".zip\", \".tar.gz\", \".tgz\", \".tar\" 확장자를 가진 타르볼 파일중 하나여야 합니다."
 
 #: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:226
 msgid ""
@@ -2183,7 +2183,7 @@ msgstr "버젼 캐쉬 TTL"
 
 #: src/octoprint/plugins/softwareupdate/templates/softwareupdate_settings.jinja2:113
 msgid "Show update notifications to users"
-msgstr "업데이트 공지를 사용자에게 보여주세요"
+msgstr "업데이트 공지를 사용자에게 보여주기"
 
 #: src/octoprint/plugins/softwareupdate/templates/softwareupdate_settings.jinja2:114
 msgid ""
@@ -2412,7 +2412,7 @@ msgstr "프린터"
 
 #: src/octoprint/server/views.py:564
 msgid "Serial Connection"
-msgstr "시리얼 연결"
+msgstr "직렬 연결"
 
 #: src/octoprint/server/views.py:565
 #: src/octoprint/templates/dialogs/settings/printerprofiles.jinja2:1
@@ -3870,7 +3870,7 @@ msgid ""
 "Changes to the default interface language will only become active after a "
 "reload of the page and only be active if not overridden by the users "
 "language settings."
-msgstr "기본 인터페이스 언어 변경 설정은 다른 사용자가 언어 설정을 덮어 쓰지 않은 경우에만 페이지를 다시 불러온 후 활성화 할 수 있습니다."
+msgstr "기본 인터페이스 언어에 대한 변경은 페이지를 다시 로드한 후에만 활성화되며 사용자 언어 설정에 의해 덮어씌워지지 않은 경우에만 활성화됩니다."
 
 #: src/octoprint/templates/dialogs/settings/appearance.jinja2:49
 msgid "Show temperatures in Fahrenheit as well as Celsius"
@@ -4273,7 +4273,7 @@ msgstr "<code>busy</code> 프로토콜 지원이 발견됨"
 msgid ""
 "Time after which a connection attempt to the printer will be considered as "
 "having failed"
-msgstr "프린터 연결 시도에 실패했다고 간주할 시점의 시간"
+msgstr "프린터 연결 시도에 실패했다고 간주할 시간"
 
 #: src/octoprint/templates/dialogs/settings/serialconnection.jinja2:130
 msgid "Connection timeout"
@@ -4283,7 +4283,7 @@ msgstr "연결 제한시간"
 msgid ""
 "Time after which to consider an auto detection attempt to have failed if no "
 "successful connection is detected"
-msgstr "성공적 연결을 감지하지 못하여 자동 감지 시도에 실패했다고 간주할 시점의 시간"
+msgstr "성공적 연결을 감지하지 못하여 자동 감지 시도에 실패했다고 간주할 시간"
 
 #: src/octoprint/templates/dialogs/settings/serialconnection.jinja2:139
 msgid "Autodetection timeout"
@@ -4524,7 +4524,7 @@ msgstr "오래 실행되는 것으로 알려진 명령은 통신 제한시간 �
 
 #: src/octoprint/templates/dialogs/settings/serialconnection.jinja2:350
 msgid "Long running commands"
-msgstr "장기 실행 명령"
+msgstr "오래걸리는 커맨드"
 
 #: src/octoprint/templates/dialogs/settings/serialconnection.jinja2:353
 msgid ""
@@ -4614,7 +4614,7 @@ msgstr "펌웨어에서 <code>M108</code>에 대해 aborting blocking heatups을
 
 #: src/octoprint/templates/dialogs/settings/server.jinja2:2
 msgid "Commands"
-msgstr "명령"
+msgstr "커맨드"
 
 #: src/octoprint/templates/dialogs/settings/server.jinja2:8
 msgid "Connectivity check"
@@ -4676,7 +4676,7 @@ msgstr "정규 표현식"
 msgid ""
 "If you do not wish to change your password, just leave the following fields "
 "empty."
-msgstr "암호를 바꾸고 싶지 않다면 다음 입력칸을 비워두십시오."
+msgstr "암호를 바꾸고 싶지 않다면 다음 입력칸을 비워두세요."
 
 #: src/octoprint/templates/dialogs/usersettings/access.jinja2:32
 msgid ""
@@ -4798,7 +4798,7 @@ msgstr "출력중에는 프린터의 SD카드로 업로드할 수 없습니다."
 
 #: src/octoprint/templates/overlays/dragndrop.jinja2:7
 msgid "SD not initialized"
-msgstr "SD를 초기화하지 않았습니다"
+msgstr "SD카드가 시작되지 않음"
 
 #: src/octoprint/templates/overlays/offline.jinja2:9
 msgid "Attempt to reconnect"
@@ -4847,7 +4847,7 @@ msgstr "내부"
 #: src/octoprint/templates/sidebar/files.jinja2:17
 #: src/octoprint/templates/sidebar/files.jinja2:32
 msgid "Uploaded"
-msgstr "업로드함"
+msgstr "업로드됨"
 
 #: src/octoprint/templates/sidebar/files.jinja2:21
 msgid "Additional data"
@@ -4937,7 +4937,7 @@ msgstr "SD 카드 사용"
 
 #: src/octoprint/templates/sidebar/files_header.jinja2:42
 msgid "Initialize SD card"
-msgstr "SD 카드 초기화 "
+msgstr "SD 카드 시작"
 
 #: src/octoprint/templates/sidebar/files_header.jinja2:43
 msgid "Refresh SD files"
@@ -5054,7 +5054,7 @@ msgstr "이 정보는 \"제어\" 탭을 통한 수동 제어에 사용된다. �
 
 #: src/octoprint/templates/snippets/settings/printerprofiles/profileEditorBuildvolume.jinja2:3
 msgid "Form Factor"
-msgstr "양식 인자"
+msgstr "폼팩터"
 
 #: src/octoprint/templates/snippets/settings/printerprofiles/profileEditorBuildvolume.jinja2:5
 msgid "Rectangular"
@@ -5070,7 +5070,7 @@ msgstr "원점"
 
 #: src/octoprint/templates/snippets/settings/printerprofiles/profileEditorBuildvolume.jinja2:21
 msgid "Heated Bed"
-msgstr "베드 가열함"
+msgstr "히팅베드"
 
 #: src/octoprint/templates/snippets/settings/printerprofiles/profileEditorBuildvolume.jinja2:29
 msgid "Please define the print volume."
@@ -5506,7 +5506,7 @@ msgstr "작업 진행 동기화"
 
 #: src/octoprint/templates/tabs/gcodeviewer.jinja2:44
 msgid "Center viewport on model"
-msgstr "모델 관찰 시점 가운데로"
+msgstr "모델을 가운데로 보기"
 
 #: src/octoprint/templates/tabs/gcodeviewer.jinja2:47
 msgid "Zoom in on model"
@@ -5534,7 +5534,7 @@ msgstr "다음 레이어도 표시"
 
 #: src/octoprint/templates/tabs/gcodeviewer.jinja2:73
 msgid "Reload"
-msgstr "다시 읽기"
+msgstr "다시 불러오기"
 
 #: src/octoprint/templates/tabs/gcodeviewer.jinja2:81
 msgid "Show visited bounding box"
