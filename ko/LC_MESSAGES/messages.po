@@ -21,7 +21,7 @@ msgstr ""
 "Project-Id-Version: OctoPrint\n"
 "Report-Msgid-Bugs-To: i18n@octoprint.org\n"
 "POT-Creation-Date: 2018-12-03 11:55+0100\n"
-"PO-Revision-Date: 2018-12-21 13:25+0000\n"
+"PO-Revision-Date: 2018-12-22 09:34+0000\n"
 "Last-Translator: wooooooooooook <nubiz@naver.com>\n"
 "Language-Team: Korean (http://www.transifex.com/octoprint/octoprint/language/ko/)\n"
 "MIME-Version: 1.0\n"
@@ -1458,7 +1458,7 @@ msgstr "변동사항을 적용하려면 새로고침이 필요합니다."
 #: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:733
 #: src/octoprint/templates/overlays/reloadui.jinja2:14
 msgid "Reload now"
-msgstr "지금 다시읽기"
+msgstr "지금 다시로딩"
 
 #: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:742
 msgid "A reconnect to the printer is needed for the changes to take effect."
@@ -2901,7 +2901,7 @@ msgstr "오브젝트의 바운딩박스: (%(object.minX).2f, %(object.minY).2f, 
 msgid ""
 "Print volume: (%(profile.minX).2f, %(profile.minY).2f, %(profile.minZ).2f) "
 "&times; (%(profile.maxX).2f, %(profile.maxY).2f, %(profile.maxZ).2f)"
-msgstr ""
+msgstr "프린트 볼륨: (%(profile.minX).2f, %(profile.minY).2f, %(profile.minZ).2f) &times; (%(profile.maxX).2f, %(profile.maxY).2f, %(profile.maxZ).2f)"
 
 #: src/octoprint/static/js/app/viewmodels/files.js:724
 msgid "Object doesn't fit print volume"
@@ -3430,13 +3430,13 @@ msgstr "목표온도"
 msgid ""
 "showing %(displayed)d lines (%(filtered)d of %(total)d total lines filtered,"
 " buffer full)"
-msgstr "%(displayed)d 줄 표시 중 (필터링 %(total)d 전체 라인의 %(filtered)d, 전체 버퍼)"
+msgstr "%(displayed)d 줄 표시 중 (전체 %(total)d줄 중 %(filtered)d줄 필터링됨, 버퍼 가득참)"
 
 #: src/octoprint/static/js/app/viewmodels/terminal.js:106
 #, python-format
 msgid ""
 "showing %(displayed)d lines (%(filtered)d of %(total)d total lines filtered)"
-msgstr "%(displayed)d 줄 표시 중(%(total)d 줄 중 %(filtered)d 줄 따로 보여줌)"
+msgstr "%(displayed)d 줄 표시 중(전체 %(total)d줄 중 %(filtered)d줄 필터링 됨)"
 
 #: src/octoprint/static/js/app/viewmodels/terminal.js:110
 #, python-format
@@ -3870,7 +3870,7 @@ msgid ""
 "Changes to the default interface language will only become active after a "
 "reload of the page and only be active if not overridden by the users "
 "language settings."
-msgstr "기본 인터페이스 언어에 대한 변경은 페이지를 다시 로드한 후에만 활성화되며 사용자 언어 설정에 의해 덮어씌워지지 않은 경우에만 활성화됩니다."
+msgstr "기본 인터페이스 언어 변경은 페이지를 다시 로드한 후에 적용됩니다. 사용자 언어 설정에 의해 덮어씌워지지 않은 경우에만 활성화됩니다."
 
 #: src/octoprint/templates/dialogs/settings/appearance.jinja2:49
 msgid "Show temperatures in Fahrenheit as well as Celsius"
@@ -3928,7 +3928,7 @@ msgstr "올바른 언어팩이 아닌 것 같습니다. 올바른 언어팩은 z
 msgid ""
 "Please note that you will have to reload the page in order for any newly "
 "added language packs to become available."
-msgstr "새로 추가한 언어팩을 사용할 수 있으려면 페이지를 다시 불러와야 함을 참고하십시오."
+msgstr "새로 추가한 언어팩을 사용하려면 페이지를 다시 불러와야 합니다."
 
 #: src/octoprint/templates/dialogs/settings/features.jinja2:5
 msgid "Enable Temperature Graph"
@@ -4692,7 +4692,7 @@ msgstr "언어"
 msgid ""
 "Changes to the interface language will only become active after a reload of "
 "the page."
-msgstr "인터페이스 언어 변경 설정은 페이지를 다시 불러온 후 활성화됩니다."
+msgstr "인터페이스 언어 변경은 페이지를 다시 불러온 후 활성화됩니다."
 
 #: src/octoprint/templates/dialogs/wizard/firstrun_end.jinja2:1
 msgid "All Done!"
@@ -4806,7 +4806,7 @@ msgstr "연결 다시 시도"
 
 #: src/octoprint/templates/overlays/reloadui.jinja2:6
 msgid "Please reload"
-msgstr "다시 불러오십시오"
+msgstr "다시 로딩해주세요"
 
 #: src/octoprint/templates/overlays/reloadui.jinja2:7
 msgid ""
@@ -5514,7 +5514,7 @@ msgstr "모델 확대"
 
 #: src/octoprint/templates/tabs/gcodeviewer.jinja2:53
 msgid "Show moves"
-msgstr "움직임 표시"
+msgstr "이동 표시"
 
 #: src/octoprint/templates/tabs/gcodeviewer.jinja2:56
 msgid "Show retracts"
@@ -5647,7 +5647,7 @@ msgstr "성능상의 이유로 현재 제한된 양의 터미널 기능만 사�
 
 #: src/octoprint/templates/tabs/terminal.jinja2:37
 msgid "Fake Acknowledgement"
-msgstr "가짜 확인"
+msgstr "가짜 승인(Fake Acknowledgement)"
 
 #: src/octoprint/templates/tabs/terminal.jinja2:38
 msgid ""
@@ -5661,7 +5661,7 @@ msgstr "프린터와의 직렬 통신 문제로 펌웨어에서 보낸 승인(\"
 
 #: src/octoprint/templates/tabs/terminal.jinja2:41
 msgid "Force fancy functionality"
-msgstr "멋진 기능"
+msgstr "기능 강제 실행"
 
 #: src/octoprint/templates/tabs/terminal.jinja2:42
 msgid "Force terminal output during printing"
